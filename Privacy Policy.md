@@ -10,11 +10,17 @@ RTIBot ("we", "our", "us") is committed to protecting your privacy. This Privacy
 
 RTIBot collects the following types of information:
 
-- **Guild Wars 2 Data**: When you use RTIBot, you may provide your Guild Wars 2 API keys and usernames. This data is necessary for reading your in-game encounter/achievement progress, region, and account name. This data is stored securely and is used exclusively for the purpose of providing the service.
+- **Guild Wars 2 Data**: When you use RTIBot, you may provide your Guild Wars 2 API keys and usernames. This data is necessary for reading your in-game encounter/achievement progress, region, and account name. This data is stored securely and is used exclusively for the purpose of providing the service. This data is collected via slash command interactions or modal interactions using the interactions API provided by Discord.
   
-- **Discord Data**: RTIBot links to your Discord account using your unique Discord ID and username. This data allows us to associate actions within the bot to your Discord account, such as event sign-ups, community participation, command interactions, and general usage of the bot's services (such as Training Requests).
+- **Discord Data**: RTIBot links to your Discord account using your unique Discord ID and username. This data allows us to associate actions within the bot to your Discord account, such as event sign-ups, community participation, command interactions, and general usage of the bot's services (such as Training Requests). This data is collected in four ways:
+  1. Via the Discord interactions API. This includes slash commands, modal interactions, select menus, buttons, and context menus that you can use to interact with the bot.
+  2. Via retrieving Discord server members directly from the Discord API. This is used to retrieve the most up-to-date information about you to display correct information regarding events you organise / register to and to validate role-based permissions for certain bot features.
+  3. Via tracking who leaves a Discord server. This is done to ensure that Discord-server-specific data is removed when you leave a server.
+  4. Via tracking when someone updates their Discord profile information. This is done to ensure that cached Discord-related data (notably, usernames and nicknames) are kept up to date in the bot's database.
 
-- **User-Generated Content**: If you upload content (e.g., event details, community information) to RTIBot, it will be stored in our database. You retain ownership of your content but grant us a license to store and display it within the bot for the purposes of the service.
+- **User-Generated Content**: If you upload content (e.g., event details, community information) to RTIBot, it will be stored in our database. You retain ownership of your content but grant us a license to store and display it within the bot for the purposes of the service. This data is collected in two ways:
+  1. Via the Discord interactions API.
+  2. Via reading Discord message content. This is only done for specific features such as reading text posted by the user during a clearly-designated user input flow (with a prompt similar to "please enter the event description in a new Discord message").
 
 ## 3. How We Use Your Information
 
