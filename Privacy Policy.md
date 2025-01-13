@@ -71,11 +71,11 @@ As a user of RTIBot, you have the following rights:
 
 If you wish to exercise any of these rights, please contact us at the email provided below.
 
-## 10. Changes to This Privacy Policy
+## 11. Changes to This Privacy Policy
 
 We may update this Privacy Policy from time to time. If we make any changes, we will notify users in the `#rtibot-updates` channel on our [official Discord support server](https://www.discord.gg/54NgEDXGdK). Continued use of RTIBot after any changes to this policy constitutes acceptance of the updated policy.
 
-## 11. Contact Us
+## 12. Contact Us
 
 If you have any questions about this Privacy Policy or wish to exercise your rights, please contact us at:
 
